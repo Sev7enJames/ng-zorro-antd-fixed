@@ -3983,7 +3983,7 @@ var NzSelectComponent = (function () {
      * @return {?}
      */
     function (ul) {
-        if (ul && (ul.scrollHeight - ul.scrollTop === ul.clientHeight)) {
+        if (ul && (ul.scrollHeight - Math.ceil(ul.scrollTop) === ul.clientHeight)) {
             this.nzScrollToBottom.emit(true);
         }
     };

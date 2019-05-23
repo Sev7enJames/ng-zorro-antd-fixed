@@ -1,6 +1,6 @@
 {
   "_from": "ng-zorro-antd@^0.6.14",
-  "_id": "ng-zorro-antd@0.6.16",
+  "_id": "ng-zorro-antd@0.6.17",
   "_inBundle": false,
   "_integrity": "sha1-rO9Bow/rzoNbhx1SzUfQQqwu1EM=",
   "_location": "/ng-zorro-antd",
@@ -121,5 +121,5 @@
     "test": "node --max_old_space_size=5120 ./node_modules/@angular/cli/bin/ng test --single-run --code-coverage"
   },
   "typings": "./antd.d.ts",
-  "version": "0.6.16"
+  "version": "0.6.17"
 }

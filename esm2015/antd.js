@@ -5778,7 +5778,7 @@ class NzSelectComponent {
      * @return {?}
      */
     dropDownScroll(ul) {
-        if (ul && (ul.scrollHeight - ul.scrollTop === ul.clientHeight)) {
+        if (ul && (ul.scrollHeight - Math.ceil(ul.scrollTop) === ul.clientHeight)) {
             this.nzScrollToBottom.emit(true);
         }
     }
