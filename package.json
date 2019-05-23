@@ -1,27 +1,26 @@
 {
-  "_from": "ng-zorro-antd@0.6.15",
-  "_id": "ng-zorro-antd@0.6.15",
+  "_from": "ng-zorro-antd@^0.6.14",
+  "_id": "ng-zorro-antd@0.6.16",
   "_inBundle": false,
   "_integrity": "sha1-rO9Bow/rzoNbhx1SzUfQQqwu1EM=",
   "_location": "/ng-zorro-antd",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "ng-zorro-antd@0.6.15",
+    "raw": "ng-zorro-antd@^0.6.14",
     "name": "ng-zorro-antd",
     "escapedName": "ng-zorro-antd",
-    "rawSpec": "0.6.15",
+    "rawSpec": "^0.6.14",
     "saveSpec": null,
-    "fetchSpec": "0.6.15"
+    "fetchSpec": "^0.6.14"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npm.taobao.org/ng-zorro-antd/download/ng-zorro-antd-0.6.15.tgz",
   "_shasum": "acef41a30febce835b871d52cd47d042ac2ed443",
-  "_spec": "ng-zorro-antd@0.6.15",
+  "_spec": "ng-zorro-antd@^0.6.14",
   "_where": "/Users/zhangdongxu/Documents/work/goshare2/bgSystem",
   "bugs": {
     "url": "https://github.com/NG-ZORRO/ng-zorro-antd/issues"
@@ -32,7 +31,7 @@
     "moment": "^2.18.1",
     "tslib": "^1.7.1"
   },
-  "deprecated": "低于0.7.0版本 ng-zorro-antd 已经不再维护，请尽快升级至最新版本https://ng.ant.design/",
+  "deprecated": "该包并非官方正式包，而是基于ng-zorro-antd@0.6.15做源码bug修复，提供给我们内部使用",
   "description": "An enterprise-class UI components based on Ant Design and Angular",
   "devDependencies": {
     "@angular/animations": "^5.0.0",
@@ -122,5 +121,5 @@
     "test": "node --max_old_space_size=5120 ./node_modules/@angular/cli/bin/ng test --single-run --code-coverage"
   },
   "typings": "./antd.d.ts",
-  "version": "0.6.15"
+  "version": "0.6.16"
 }
